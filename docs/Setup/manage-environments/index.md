@@ -32,7 +32,7 @@ Keep separate environments to reduce the risk of accidentally launching an unfin
     "images": [
     {
       "image": [
-        "./images/6f02eed-new_environment",
+        "https://github.com/fscelliott/rollouts-test/blob/master/images/6f02eed-new_environment.png",
         "new_environment.png",
         738,
         763,
@@ -43,12 +43,13 @@ Keep separate environments to reduce the risk of accidentally launching an unfin
 }
 [/block]
 The _Environment Key_ and _Datafile URL_ for the new environment will display on the _Settings_ page.
+FRANCES: HERE IS ANOTHER TEST IMAGE:
 [block:image]
 {
     "images": [
     {
       "image": [
-        "https://files.readme.io/8c4a98f-environment_key_url.png",
+        "https://github.com/fscelliott/rollouts-test/blob/master/images/8c4a98f-environment_key_url.png",
         "environment_key_url.png",
         1371,
         770,
