@@ -32,7 +32,11 @@ Steps I took:
 - created v4.0 in the web ui
 - restructured the dirs, renamed files according to the readme-sync tool conventions
 - manually downloaded an image from the docs (since readme doesn't actually export the images)
-- ran (in my case) npx ts-node sync/index.ts --apiKey 17liL6nGhUFTAE7WfJR0Ip7JAI256Hr1 --version 4.0 --docs /mnt/c/Users/franc/Documents/GitHub/rollouts-test/docs/ 
+
+(note to self did I run: 
+curl https://dash.readme.io/api/v1 -X GET -u <key> at some point?)
+
+- ran (in my case) npx ts-node sync/index.ts --apiKey <key> --version 4.0 --docs /mnt/c/Users/franc/Documents/GitHub/rollouts-test/docs/ 
 
 ..and it works!
 
@@ -60,4 +64,6 @@ Behold this image originally in readme, now saved at
 
 - how does  'suggest edits'  work with this?
 - how does changes made in the web ui work with this?(I assume this tool would just overwrite whatever changes were made in the web ui) -- update, yup, I think the web UI gives me a merge conflict warning...
-- how does syncing of deleted pages work? and new pages? 
+- how does syncing of deleted pages work? and new pages?  test:
+  - I have a superset of docs in the web UI in 1 category, and only sync a subset of them. do the other docs in the web UI get deleted?
+  - I have a superset of docs in Github in 1 category, and only a subset in the web UI. do the docs get added?
