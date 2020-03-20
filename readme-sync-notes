@@ -71,13 +71,19 @@ Behold this image originally in readme, now saved at
 
   
   NOTES ON BEHAVIOR:
-  
+
+**RANDOME NOTES**  
 - if you try to duplicate mardkown file names, you'll get duplicate file warnings, even if the files are in separate categories.
-- remember categories have to be lower cased and w/ dashs, so "Getting Started" would be a dir named "getting-started"
-- how does syncing of deleted pages work? **ACROSS** multiple categories:
+- (I believe?) categories have to be lower cased and w/ dashs, so "Getting Started" would be a dir named "getting-started"
+- Q: what if you have some md files ordered like 00 - blah.md, 02 - blah.md, etc, and you create locally an unordered file like a-page.md? What happens with ordering?
+    A: sorting is alphanumeric. your ordered pages go first, then a-page.md gets created and added at the end of the category.
+
+
+- **ACROSS** multiple categories: how does syncing of pages work? :
   - Q: I have a subset of categories to sync locally, and a superset of categories in the web UI? What happens?
-    - A: Only the subset of local categories gets synced.
-- how does syncing of deleted pages work? **WITHIN** 1 category:
+    - A: Only the subset of local categories gets synced.any category that doesn't have a local directory is untouched
+
+- **WITHIN** 1 category: how does syncing of pages work? :
   - Q I have a superset of docs in the web UI in 1 category, and only sync a local subset of them. do the other docs in the web UI get deleted?
     - A: yes, the superset of docs in the web UI is deleted, and now your category only contains the subset of docs you synced locally.
   - Q: I have a superset of docs in Github in 1 category, and only a subset in the web UI. do the docs get added to the web ui?
