@@ -76,7 +76,7 @@ Behold this image originally in readme, now saved at
 - if you try to duplicate mardkown file names, you'll get duplicate file warnings, even if the files are in separate categories.
 - (I believe?) categories have to be lower cased and w/ dashs, so "Getting Started" would be a dir named "getting-started"
 - Q: what if you have some md files ordered like 00 - blah.md, 02 - blah.md, etc, and you create locally an unordered file like a-page.md? What happens with ordering?
-    A: sorting is alphanumeric. your ordered pages go first, then a-page.md gets created and added at the end of the category.
+    A: sorting is alphanumeric. your ordered pages go first (stripped of their 01 - , -02 ordering prefixes), then a-page.md gets created and added at the end of the category.
 
 
 - **ACROSS** multiple categories: how does syncing of pages work? :
