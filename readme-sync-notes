@@ -68,12 +68,17 @@ Behold this image originally in readme, now saved at
 
 - how does  'suggest edits'  work with this?
 - how does changes made in the web ui work with this?(I assume this tool would just overwrite whatever changes were made in the web ui) -- update, yup, I think the web UI gives me a merge conflict warning...
-- how does syncing of deleted pages work? and new pages?  test:
-  - I have a superset of docs in the web UI in 1 category, and only sync a subset of them. do the other docs in the web UI get deleted?
-  - I have a superset of docs in Github in 1 category, and only a subset in the web UI. do the docs get added?
+
   
   NOTES ON BEHAVIOR:
   
-  - if you try to duplicate mardkown file names, you'll get duplicate file warnings, even if the files are in separate categories.
-
+- if you try to duplicate mardkown file names, you'll get duplicate file warnings, even if the files are in separate categories.
+- remember categories have to be lower cased and w/ dashs, so "Getting Started" would be a dir named "getting-started"
+- how does syncing of deleted pages work? **ACROSS** multiple categories:
+  - Q: I have a subset of categories to sync locally, and a superset of categories in the web UI? What happens?
+    - A: Only the subset of categories gets synced.
+- how does syncing of deleted pages work? **WITHIN** 1 category:
+  - I have a superset of docs in the web UI in 1 category, and only sync a subset of them. do the other docs in the web UI get deleted?
+    - answer: the superset of docs in the web UI is deleted, and now your category only contains the subset of docs you synced locally.
+  - I have a superset of docs in Github in 1 category, and only a subset in the web UI. do the docs get added?
 
