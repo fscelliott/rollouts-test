@@ -37,6 +37,10 @@ Steps I took:
 curl https://dash.readme.io/api/v1 -X GET -u <key> at some point?)
 
 - ran (in my case) npx ts-node sync/index.ts --apiKey <key> --version 4.0 --docs /mnt/c/Users/franc/Documents/GitHub/rollouts-test/docs/ 
+ 
+ or:
+ npx ts-node sync/index.ts --apiKey <key> --version 4.0 --docs //home/frances/GitHub/rollouts-test/docs/
+ 
 
 ..and it works!
 
