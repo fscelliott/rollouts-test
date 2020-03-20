@@ -19,12 +19,12 @@ notes on what I did for readme-sync:
 nvm install
 npm install
 
-npx ts-node sync/index.ts --apiKey 17liL6nGhUFTAE7WfJR0Ip7JAI256Hr1 --version 4.0 --docs /mnt/c/Users/franc/Documents/GitHub/rollouts-test/subset/docs/ 
+npx ts-node sync/index.ts --apiKey <key> --version 4.0 --docs /mnt/c/Users/franc/Documents/GitHub/rollouts-test/subset/docs/ 
 
 C:\Users\franc\Documents\Optimizely\TEST_SYNC\subset\docs
 
 
 
-curl https://dash.readme.io/api/v1 -X GET -u 17liL6nGhUFTAE7WfJR0Ip7JAI256Hr1:
+curl https://dash.readme.io/api/v1 -X GET -u <key>:
 
 
