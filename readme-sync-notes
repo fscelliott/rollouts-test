@@ -73,6 +73,7 @@ Behold this image originally in readme, now saved at
   NOTES ON BEHAVIOR:
 
 **RANDOME NOTES**  
+- seems if you create a page locally and sync, the page gets created AND PUBLISHED simultaneously (i think it would be nicer if it stayed unpublished)
 - if you try to duplicate mardkown file names, you'll get duplicate file warnings, even if the files are in separate categories.
 - (I believe?) categories have to be lower cased and w/ dashs, so "Getting Started" would be a dir named "getting-started"
 - Q: what if you have some md files ordered like 00 - blah.md, 02 - blah.md, etc, and you create locally an unordered file like a-page.md? What happens with ordering?
