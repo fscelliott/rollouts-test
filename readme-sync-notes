@@ -70,7 +70,7 @@ Behold this image originally in readme, now saved at
 - how does changes made in the web ui work with this?(I assume this tool would just overwrite whatever changes were made in the web ui) -- update, yup, I think the web UI gives me a merge conflict warning...
 
   
-  NOTES ON BEHAVIOR:
+  NOTES ON BEHAVIOR (TODO: pull request back to the original flowcommerce repo):
 
 **RANDOME NOTES**  
 - seems if you create a page locally and sync, the page gets created AND PUBLISHED simultaneously IF the markdwon page frontmattter is set to hidden: true.
