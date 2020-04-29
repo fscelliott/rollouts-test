@@ -1,7 +1,7 @@
 ---
 title: "Pass in audience attributes"
 slug: "pass-in-audience-attributes-csharp"
-hidden: true
+hidden: false
 createdAt: "2019-09-12T13:44:29.855Z"
 updatedAt: "2019-09-12T20:30:05.154Z"
 ---

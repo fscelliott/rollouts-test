@@ -1,7 +1,7 @@
 ---
 title: "Is Feature Enabled"
 slug: "is-feature-enabled-csharp"
-hidden: true
+hidden: false
 createdAt: "2019-09-12T13:51:59.213Z"
 updatedAt: "2019-09-12T20:36:35.281Z"
 ---

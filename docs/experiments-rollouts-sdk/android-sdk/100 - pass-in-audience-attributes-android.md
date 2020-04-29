@@ -1,7 +1,7 @@
 ---
 title: "Pass in audience attributes"
 slug: "pass-in-audience-attributes-android"
-hidden: true
+hidden: false
 createdAt: "2019-09-11T13:44:16.539Z"
 updatedAt: "2019-12-04T17:41:10.429Z"
 ---

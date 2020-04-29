@@ -1,7 +1,7 @@
 ---
 title: "Install SDK"
 slug: "install-sdk-csharp"
-hidden: true
+hidden: false
 createdAt: "2019-09-11T13:55:51.015Z"
 updatedAt: "2019-09-11T13:58:07.201Z"
 ---

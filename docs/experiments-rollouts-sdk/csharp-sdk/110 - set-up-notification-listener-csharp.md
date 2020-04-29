@@ -1,7 +1,7 @@
 ---
 title: "Set up notification listener"
 slug: "set-up-notification-listener-csharp"
-hidden: true
+hidden: false
 createdAt: "2019-09-12T13:44:24.921Z"
 updatedAt: "2020-02-10T19:46:50.861Z"
 ---

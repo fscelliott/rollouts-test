@@ -1,7 +1,7 @@
 ---
 title: "Customize logger"
 slug: "customize-logger-csharp"
-hidden: true
+hidden: false
 createdAt: "2019-09-12T13:44:11.768Z"
 updatedAt: "2019-09-12T13:47:56.603Z"
 ---

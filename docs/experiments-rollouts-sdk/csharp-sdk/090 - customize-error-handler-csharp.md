@@ -1,7 +1,7 @@
 ---
 title: "Customize error handler"
 slug: "customize-error-handler-csharp"
-hidden: true
+hidden: false
 createdAt: "2019-09-12T13:44:18.412Z"
 updatedAt: "2019-09-12T13:48:38.080Z"
 ---

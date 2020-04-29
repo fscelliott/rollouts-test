@@ -1,7 +1,7 @@
 ---
 title: "Initialize SDK"
 slug: "initialize-sdk-csharp"
-hidden: true
+hidden: false
 createdAt: "2019-09-11T14:15:47.848Z"
 updatedAt: "2020-04-10T00:11:24.283Z"
 ---

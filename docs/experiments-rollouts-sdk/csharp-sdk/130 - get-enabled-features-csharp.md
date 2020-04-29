@@ -1,7 +1,7 @@
 ---
 title: "Get Enabled Features"
 slug: "get-enabled-features-csharp"
-hidden: true
+hidden: false
 createdAt: "2019-09-12T13:53:46.225Z"
 updatedAt: "2019-09-12T20:33:07.026Z"
 ---
