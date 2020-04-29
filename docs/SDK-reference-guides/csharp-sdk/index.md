@@ -1,7 +1,7 @@
 ---
 title: "C# SDK"
 slug: "csharp-sdk"
-hidden: true
+hidden: false
 metadata: 
   title: "Optimizely C# SDK"
 createdAt: {}

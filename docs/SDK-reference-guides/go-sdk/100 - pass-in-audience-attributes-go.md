@@ -1,7 +1,7 @@
 ---
 title: "Pass in audience attributes"
 slug: "pass-in-audience-attributes-go"
-hidden: true
+hidden: false
 createdAt: "2019-09-12T13:58:32.804Z"
 updatedAt: "2019-10-29T23:40:24.261Z"
 ---
